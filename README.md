@@ -11,4 +11,4 @@ As I wasn't able to install these versions on Grid'5000 (no guide for MPICH), I 
 There is a file for each collective operation in which :
 for different message sizes, I run 10 tests and calculate the average time.
 
-Instead of using MPI_Wtime() function to measure the execution time, I used clock() because it has high-resolution timer.
+Instead of using the MPI_Wtime() function to measure the execution time, I used clock() because it has a higher-resolution timer.
